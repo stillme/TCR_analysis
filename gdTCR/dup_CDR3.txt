@@ -1,0 +1,322 @@
+[[1]]
+     Group ID Tissue Chain TRV         CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+79  Active 46    IEL   TRG   9 CALWEVLYKKLF 1 or 2 1.086957     1  1       5000  19   F       21.3       DO                   B            B
+86  Active 51    IEL   TRG   9 CALWEVLYKKLF 1 or 2 1.587302     1  1      10000  51   F       68.1       DO                   C            D
+140    GFD 33    IEL   TRG   9 CALWEVLYKKLF 1 or 2 3.409091     3  1       1164  55   F       38.1       DO                   B            D
+
+[[2]]
+     Group ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+87  Active 51    IEL   TRG   9 CALWEVRYKKLF 1 or 2  1.587302     1  1      10000  51   F       68.1       DO                   C            D
+92  Active 81    IEL   TRG   9 CALWEVRYKKLF 1 or 2  6.741573     6  2       5000  30   F       34.9       DO                   B            B
+102    GFD  3    IEL   TRG   9 CALWEVRYKKLF      1  2.564103     2  1       5000  53   F       37.8       DO                   B            D
+120    GFD  4    PBL   TRG   9 CALWEVRYKKLF 1 or 2 97.777778    88  3        767  32   F       22.6       DO                   A            C
+
+[[3]]
+     Group ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+87  Active 51    IEL   TRG   9 CALWEVRYKKLF 1 or 2  1.587302     1  1      10000  51   F       68.1       DO                   C            D
+92  Active 81    IEL   TRG   9 CALWEVRYKKLF 1 or 2  6.741573     6  2       5000  30   F       34.9       DO                   B            B
+102    GFD  3    IEL   TRG   9 CALWEVRYKKLF      1  2.564103     2  1       5000  53   F       37.8       DO                   B            D
+120    GFD  4    PBL   TRG   9 CALWEVRYKKLF 1 or 2 97.777778    88  3        767  32   F       22.6       DO                   A            C
+
+[[4]]
+    Group ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+97    GFD  3    IEL   TRG   9 CALWEVDYKKLF      1  5.128205     4  1       5000  53   F       37.8       DO                   B            D
+109   GFD  3    PBL   TRG   9 CALWEVDYKKLF 1 or 2 61.250000    49  1       5000  53   F       37.8       DO                   B            D
+
+[[5]]
+     Group ID Tissue Chain TRV          CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+75  Active 22    PBL   TRG   9 CALWEVHYYKKLF 1 or 2 7.246377     5  1       5000  44   M       18.4       DO                   B            C
+113    GFD  3    PBL   TRG   9 CALWEVHYYKKLF      2 1.250000     1  1       5000  53   F       37.8       DO                   B            D
+
+[[6]]
+     Group ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+87  Active 51    IEL   TRG   9 CALWEVRYKKLF 1 or 2  1.587302     1  1      10000  51   F       68.1       DO                   C            D
+92  Active 81    IEL   TRG   9 CALWEVRYKKLF 1 or 2  6.741573     6  2       5000  30   F       34.9       DO                   B            B
+102    GFD  3    IEL   TRG   9 CALWEVRYKKLF      1  2.564103     2  1       5000  53   F       37.8       DO                   B            D
+120    GFD  4    PBL   TRG   9 CALWEVRYKKLF 1 or 2 97.777778    88  3        767  32   F       22.6       DO                   A            C
+
+[[7]]
+     Group ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+76  Active 22    PBL   TRG   9 CALWEVRYYKKLF   1 1.449275     1  1       5000  44   M       18.4       DO                   B            C
+124    GFD  9    IEL   TRG   9 CALWEVRYYKKLF   1 7.936508     5  1       5640  17   M       42.8       DA                   C            B
+
+[[8]]
+     Group ID Tissue Chain TRV         CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+79  Active 46    IEL   TRG   9 CALWEVLYKKLF 1 or 2 1.086957     1  1       5000  19   F       21.3       DO                   B            B
+86  Active 51    IEL   TRG   9 CALWEVLYKKLF 1 or 2 1.587302     1  1      10000  51   F       68.1       DO                   C            D
+140    GFD 33    IEL   TRG   9 CALWEVLYKKLF 1 or 2 3.409091     3  1       1164  55   F       38.1       DO                   B            D
+
+[[9]]
+                      Group ID Tissue Chain TRV             CDR3         TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category
+158 Gluten Challenge Active  1    PBL   TRG   9 CALWETQELGKKIKVF P or 1 or 2 23.437500    15  1       5000  36   F       24.6                            B
+166           Uncategorized 49    IEL   TRG   9 CALWETQELGKKIKVF           P  1.298701     1  1       9472  60   F       39.0       DO                   C
+    Age_category
+158            C
+166            D
+
+[[10]]
+      Group  ID Tissue Chain TRV        CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+225  Active  51    PBL   TRG   8 CATWDYYKKLF      1  6.944444     5  1       1394  51   F      68.10       DO                   B            D
+232     GFD   4    PBL   TRG   8 CATWDYYKKLF 1 or 2  1.111111     1  1        767  32   F      22.60       DO                   A            C
+280 Control 110    PBL   TRG   5 CATWDYYKKLF      1 13.725490     7  1       4361  32   M       9.36       DA                   B            C
+405     GFD  28    PBL   TRG   4 CATWDYYKKLF 1 or 2 43.529412    37  1       1244  37   M      23.70       DO                   B            C
+
+[[11]]
+                      Group ID Tissue Chain TRV        CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+247 Gluten Challenge Active  1    PBL   TRG   8 CATWDLYKKLF      1 34.375000    22  2       5000  36   F       24.6                            B            C
+254           Uncategorized 49    IEL   TRG   8 CATWDLYKKLF 1 or 2  1.298701     1  1       9472  60   F       39.0       DO                   C            D
+
+[[12]]
+     Group  ID Tissue Chain TRV        CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+216 Active  47    IEL   TRG   8 CATWDNYKKLF 1 or 2 14.062500     9  2      10000  13   F       33.8       DA                   C            A
+260 Active 112    PBL   TRG   8 CATWDNYKKLF      1  5.128205     2  1       3625  37   F       27.4       DO                   B            C
+
+[[13]]
+      Group  ID Tissue Chain TRV        CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+225  Active  51    PBL   TRG   8 CATWDYYKKLF      1  6.944444     5  1       1394  51   F      68.10       DO                   B            D
+232     GFD   4    PBL   TRG   8 CATWDYYKKLF 1 or 2  1.111111     1  1        767  32   F      22.60       DO                   A            C
+280 Control 110    PBL   TRG   5 CATWDYYKKLF      1 13.725490     7  1       4361  32   M       9.36       DA                   B            C
+405     GFD  28    PBL   TRG   4 CATWDYYKKLF 1 or 2 43.529412    37  1       1244  37   M      23.70       DO                   B            C
+
+[[14]]
+      Group  ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+283 Control 111    PBL   TRG   5 CATWDRPGYKKLF   1 1.724138     1  1       1183  38   F        2.3       DO                   B            C
+297     GFD   3    IEL   TRG   5 CATWDRPGYKKLF   1 1.282051     1  1       5000  53   F       37.8       DO                   B            D
+
+[[15]]
+    Group ID Tissue Chain TRV        CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+228   GFD  3    IEL   TRG   8 CATWVYYKKLF   1  1.282051     1  1       5000  53   F       37.8       DO                   B            D
+298   GFD  4    IEL   TRG   5 CATWVYYKKLF   1 11.764706    10  1       3969  32   F       22.6       DO                   B            C
+411   GFD 41    IEL   TRG   4 CATWVYYKKLF   1  3.448276     2  1       1945  37   F       14.4       DO                   B            C
+
+[[16]]
+      Group  ID Tissue Chain TRV            CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+269 Control 144    PBL   TRG   8 CATWDGRTTGWFKIF  P1 2.439024     1  1       1266  10   M       5.45       DO                   B            A
+357 Control  53    IEL   TRG   4 CATWDGRTTGWFKIF  P1 5.263158     3  1       1456  10   F      17.50       DA                   B            A
+
+[[17]]
+      Group  ID Tissue Chain TRV        CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+225  Active  51    PBL   TRG   8 CATWDYYKKLF      1  6.944444     5  1       1394  51   F      68.10       DO                   B            D
+232     GFD   4    PBL   TRG   8 CATWDYYKKLF 1 or 2  1.111111     1  1        767  32   F      22.60       DO                   A            C
+280 Control 110    PBL   TRG   5 CATWDYYKKLF      1 13.725490     7  1       4361  32   M       9.36       DA                   B            C
+405     GFD  28    PBL   TRG   4 CATWDYYKKLF 1 or 2 43.529412    37  1       1244  37   M      23.70       DO                   B            C
+
+[[18]]
+    Group ID Tissue Chain TRV        CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+228   GFD  3    IEL   TRG   8 CATWVYYKKLF   1  1.282051     1  1       5000  53   F       37.8       DO                   B            D
+298   GFD  4    IEL   TRG   5 CATWVYYKKLF   1 11.764706    10  1       3969  32   F       22.6       DO                   B            C
+411   GFD 41    IEL   TRG   4 CATWVYYKKLF   1  3.448276     2  1       1945  37   F       14.4       DO                   B            C
+
+[[19]]
+                      Group  ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+418 Gluten Challenge Active   1    IEL   TRG   4 CATWDGLYYKKLF   1 3.488372     3  1       5000  36   F       24.6                            B            C
+451                  Active 112    IEL   TRG   4 CATWDGLYYKKLF   1 1.754386     1  1       3625  37   F       27.4       DO                   B            C
+618                     GFD   3    IEL   TRG   2 CATWDGLYYKKLF   1 2.564103     2  1       5000  53   F       37.8       DO                   B            D
+
+[[20]]
+      Group  ID Tissue Chain TRV            CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+460  Active 143    IEL   TRG   4 CATWDGRGSDWIKTF  P2 1.886792     1  1       2843  16   M      24.20       DO                   B            B
+468 Control 144    IEL   TRG   4 CATWDGRGSDWIKTF  P2 2.898551     2  1        751  10   M       5.45       DO                   A            A
+
+[[21]]
+     Group  ID Tissue Chain TRV          CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+263 Active 143    PBL   TRG   8 CATWDTTGWFKIF  P1  4.347826     2  1        504  16   M       24.2       DO                   A            B
+475    GFD 113    IEL   TRG   4 CATWDTTGWFKIF  P1 10.769231     7  1       1356  29   F       17.9       DO                   A            A
+
+[[22]]
+     Group ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+378 Active 47    IEL   TRG   4 CATWSHYYKKLF      1 28.125000    18  1      10000  13   F       33.8       DA                   C            A
+505 Active 51    IEL   TRG   3 CATWSHYYKKLF 1 or 2  3.174603     2  1      10000  51   F       68.1       DO                   C            D
+
+[[23]]
+                      Group ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+246 Gluten Challenge Active  1    IEL   TRG   8 CATWDRLYYKKLF   1 1.162791     1  1       5000  36   F       24.6                            B            C
+515                  Active 51    IEL   TRG   3 CATWDRLYYKKLF   1 1.587302     1  1      10000  51   F       68.1       DO                   C            D
+
+[[24]]
+      Group  ID Tissue Chain TRV        CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+362 Control 106    IEL   TRG   4 CATWDGGEKLF      1 86.95652    40  1        946  54   F       1.35       DA                   A            D
+538     GFD  28    IEL   TRG   3 CATWDGGEKLF      1 98.88889    89  1       1688  37   M      23.70       DO                   B            C
+636     GFD  41    PBL   TRG   2 CATWDGGEKLF 1 or 2 25.71429    18  1       2811  37   F      14.40       DO                   B            C
+
+[[25]]
+            Group  ID Tissue Chain TRV        CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+522           GFD   3    IEL   TRG   3 CATWDRPEKLF 1 or 2 2.564103     2  1       5000  53   F       37.8       DO                   B            D
+540           GFD  33    IEL   TRG   3 CATWDRPEKLF      1 3.409091     3  1       1164  55   F       38.1       DO                   B            D
+556 Uncategorized  49    IEL   TRG   3 CATWDRPEKLF 1 or 2 2.597403     2  1       9472  60   F       39.0       DO                   C            D
+575        Active 143    IEL   TRG   3 CATWDRPEKLF 1 or 2 1.886792     1  1       2843  16   M       24.2       DO                   B            B
+
+[[26]]
+    Group ID Tissue Chain TRV         CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+407   GFD 33    IEL   TRG   4 CATWDPYYKKLF   1  1.136364     1  1       1164  55   F       38.1       DO                   B            D
+548   GFD 41    PBL   TRG   3 CATWDPYYKKLF   1 18.571429    13  1       2811  37   F       14.4       DO                   B            C
+
+[[27]]
+                      Group ID Tissue Chain TRV            CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+312 Gluten Challenge Active  1    IEL   TRG   5 CATWDRDSSDWIKTF  P2 1.162791     1  1       5000  36   F       24.6                            B            C
+551 Gluten Challenge Active  1    IEL   TRG   3 CATWDRDSSDWIKTF  P2 1.162791     1  1       5000  36   F       24.6                            B            C
+
+[[28]]
+            Group  ID Tissue Chain TRV        CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+522           GFD   3    IEL   TRG   3 CATWDRPEKLF 1 or 2 2.564103     2  1       5000  53   F       37.8       DO                   B            D
+540           GFD  33    IEL   TRG   3 CATWDRPEKLF      1 3.409091     3  1       1164  55   F       38.1       DO                   B            D
+556 Uncategorized  49    IEL   TRG   3 CATWDRPEKLF 1 or 2 2.597403     2  1       9472  60   F       39.0       DO                   C            D
+575        Active 143    IEL   TRG   3 CATWDRPEKLF 1 or 2 1.886792     1  1       2843  16   M       24.2       DO                   B            B
+
+[[29]]
+      Group  ID Tissue Chain TRV           CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+487 Control  53    PBL   TRG   3 CATWDSPNYYKKLF   2 18.750000    15  1      10000  10   F       17.5       DA                   C            A
+567  Active 112    IEL   TRG   3 CATWDSPNYYKKLF   2  1.754386     1  1       3625  37   F       27.4       DO                   B            C
+
+[[30]]
+            Group  ID Tissue Chain TRV        CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+522           GFD   3    IEL   TRG   3 CATWDRPEKLF 1 or 2 2.564103     2  1       5000  53   F       37.8       DO                   B            D
+540           GFD  33    IEL   TRG   3 CATWDRPEKLF      1 3.409091     3  1       1164  55   F       38.1       DO                   B            D
+556 Uncategorized  49    IEL   TRG   3 CATWDRPEKLF 1 or 2 2.597403     2  1       9472  60   F       39.0       DO                   C            D
+575        Active 143    IEL   TRG   3 CATWDRPEKLF 1 or 2 1.886792     1  1       2843  16   M       24.2       DO                   B            B
+
+[[31]]
+      Group  ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+268 Control 144    PBL   TRG   8 CATWGRLYYKKLF   1 4.878049     2  1       1266  10   M       5.45       DO                   B            A
+583     GFD 113    PBL   TRG   3 CATWGRLYYKKLF   1 1.960784     1  1       1356  29   F      17.90       DO                   A            A
+
+[[32]]
+      Group  ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+459  Active 143    IEL   TRG   4 CATWDGYYKKLF      1  3.773585     2  1       2843  16   M       24.2       DO                   B            B
+587 Control  13    PBL   TRG   2 CATWDGYYKKLF 1 or 2  7.936508     5  2       2188  18   F       17.0       DO                   B            B
+620     GFD   3    IEL   TRG   2 CATWDGYYKKLF      1  1.282051     1  1       5000  53   F       37.8       DO                   B            D
+633     GFD  41    IEL   TRG   2 CATWDGYYKKLF 1 or 2  5.172414     3  1       1945  37   F       14.4       DO                   B            C
+658  Active 143    PBL   TRG   2 CATWDGYYKKLF      1 28.260870    13  1        504  16   M       24.2       DO                   A            B
+
+[[33]]
+     Group  ID Tissue Chain TRV           CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+463 Active 143    PBL   TRG   4 CATWDGPRYYKKLF      1  6.521739     3  1        504  16   M       24.2       DO                   A            B
+599 Active  47    PBL   TRG   2 CATWDGPRYYKKLF 1 or 2 56.756757    42  1      10000  13   F       33.8       DA                   C            A
+
+[[34]]
+     Group ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+592 Active 22    PBL   TRG   2 CATWDGPNYKKLF   1 4.347826     3  1       5000  44   M       18.4       DO                   B            C
+603 Active 51    IEL   TRG   2 CATWDGPNYKKLF   1 3.174603     2  1      10000  51   F       68.1       DO                   C            D
+
+[[35]]
+      Group ID Tissue Chain TRV          CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+342 Control 13    PBL   TRG   4 CATWDGQGYKKLF   2 11.111111     7  1       2188  18   F       17.0       DO                   B            B
+604  Active 51    IEL   TRG   2 CATWDGQGYKKLF   1  1.587302     1  1      10000  51   F       68.1       DO                   C            D
+
+[[36]]
+     Group ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+287 Active 46    PBL   TRG   5 CATWDRHYKKLF 1 or 2 44.615385    29  2       5000  19   F       21.3       DO                   B            B
+607 Active 51    IEL   TRG   2 CATWDRHYKKLF      1  1.587302     1  1      10000  51   F       68.1       DO                   C            D
+
+[[37]]
+      Group  ID Tissue Chain TRV           CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+469 Control 144    IEL   TRG   4 CATWDGTNYYKKLF 1 or 2  2.898551     2  1        751  10   M       5.45       DO                   A            A
+610  Active  51    PBL   TRG   2 CATWDGTNYYKKLF      1 12.500000     9  1       1394  51   F      68.10       DO                   B            D
+
+[[38]]
+      Group ID Tissue Chain TRV        CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+589 Control 13    PBL   TRG   2 CATWDGYKKLF 1 or 2  4.761905     3  2       2188  18   F       17.0       DO                   B            B
+612  Active 81    PBL   TRG   2 CATWDGYKKLF 1 or 2 32.758621    19  1       4012  30   F       34.9       DO                   B            B
+632     GFD 41    IEL   TRG   2 CATWDGYKKLF 1 or 2  8.620690     5  1       1945  37   F       14.4       DO                   B            C
+
+[[39]]
+     Group ID Tissue Chain TRV           CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+598 Active 46    PBL   TRG   2 CATWDGPNYYKKLF   2 1.538462     1  1       5000  19   F       21.3       DO                   B            B
+614    GFD  3    IEL   TRG   2 CATWDGPNYYKKLF   2 5.128205     4  1       5000  53   F       37.8       DO                   B            D
+
+[[40]]
+                      Group  ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+418 Gluten Challenge Active   1    IEL   TRG   4 CATWDGLYYKKLF   1 3.488372     3  1       5000  36   F       24.6                            B            C
+451                  Active 112    IEL   TRG   4 CATWDGLYYKKLF   1 1.754386     1  1       3625  37   F       27.4       DO                   B            C
+618                     GFD   3    IEL   TRG   2 CATWDGLYYKKLF   1 2.564103     2  1       5000  53   F       37.8       DO                   B            D
+
+[[41]]
+      Group  ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+459  Active 143    IEL   TRG   4 CATWDGYYKKLF      1  3.773585     2  1       2843  16   M       24.2       DO                   B            B
+587 Control  13    PBL   TRG   2 CATWDGYYKKLF 1 or 2  7.936508     5  2       2188  18   F       17.0       DO                   B            B
+620     GFD   3    IEL   TRG   2 CATWDGYYKKLF      1  1.282051     1  1       5000  53   F       37.8       DO                   B            D
+633     GFD  41    IEL   TRG   2 CATWDGYYKKLF 1 or 2  5.172414     3  1       1945  37   F       14.4       DO                   B            C
+658  Active 143    PBL   TRG   2 CATWDGYYKKLF      1 28.260870    13  1        504  16   M       24.2       DO                   A            B
+
+[[42]]
+                      Group ID Tissue Chain TRV          CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+437 Gluten Challenge Active 72    IEL   TRG   4 CATWDGGYYKKLF   1 10.344828     9  1       5000  45   F       34.2                            B            C
+627                     GFD 28    IEL   TRG   2 CATWDGGYYKKLF   1  1.111111     1  1       1688  37   M       23.7       DO                   B            C
+
+[[43]]
+      Group ID Tissue Chain TRV        CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+589 Control 13    PBL   TRG   2 CATWDGYKKLF 1 or 2  4.761905     3  2       2188  18   F       17.0       DO                   B            B
+612  Active 81    PBL   TRG   2 CATWDGYKKLF 1 or 2 32.758621    19  1       4012  30   F       34.9       DO                   B            B
+632     GFD 41    IEL   TRG   2 CATWDGYKKLF 1 or 2  8.620690     5  1       1945  37   F       14.4       DO                   B            C
+
+[[44]]
+      Group  ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+459  Active 143    IEL   TRG   4 CATWDGYYKKLF      1  3.773585     2  1       2843  16   M       24.2       DO                   B            B
+587 Control  13    PBL   TRG   2 CATWDGYYKKLF 1 or 2  7.936508     5  2       2188  18   F       17.0       DO                   B            B
+620     GFD   3    IEL   TRG   2 CATWDGYYKKLF      1  1.282051     1  1       5000  53   F       37.8       DO                   B            D
+633     GFD  41    IEL   TRG   2 CATWDGYYKKLF 1 or 2  5.172414     3  1       1945  37   F       14.4       DO                   B            C
+658  Active 143    PBL   TRG   2 CATWDGYYKKLF      1 28.260870    13  1        504  16   M       24.2       DO                   A            B
+
+[[45]]
+    Group ID Tissue Chain TRV           CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+409   GFD 41    IEL   TRG   4 CATWDGRYYYKKLF   1 5.172414     3  1       1945  37   F       14.4       DO                   B            C
+635   GFD 41    IEL   TRG   2 CATWDGRYYYKKLF   1 1.724138     1  1       1945  37   F       14.4       DO                   B            C
+
+[[46]]
+      Group  ID Tissue Chain TRV        CDR3    TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+362 Control 106    IEL   TRG   4 CATWDGGEKLF      1 86.95652    40  1        946  54   F       1.35       DA                   A            D
+538     GFD  28    IEL   TRG   3 CATWDGGEKLF      1 98.88889    89  1       1688  37   M      23.70       DO                   B            C
+636     GFD  41    PBL   TRG   2 CATWDGGEKLF 1 or 2 25.71429    18  1       2811  37   F      14.40       DO                   B            C
+
+[[47]]
+                      Group ID Tissue Chain TRV           CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+435 Gluten Challenge Active 72    IEL   TRG   4 CATWDGRKDYKKLF   1 40.229885    35  2       5000  45   F       34.2                            B            C
+642           Uncategorized 49    IEL   TRG   2 CATWDGRKDYKKLF   1  1.298701     1  1       9472  60   F       39.0       DO                   C            D
+
+[[48]]
+                      Group ID Tissue Chain TRV           CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+552 Gluten Challenge Active  1    IEL   TRG   3 CATWDGSSDWIKTF   2 1.162791     1  1       5000  36   F       24.6                            B            C
+643           Uncategorized 49    IEL   TRG   2 CATWDGSSDWIKTF  P2 1.298701     1  1       9472  60   F       39.0       DO                   C            D
+
+[[49]]
+            Group  ID Tissue Chain TRV          CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+368       Control 110    IEL   TRG   4 CATWDGFYYKKLF   1 1.449275     1  1        257  32   M       9.36       DA                   A            C
+644 Uncategorized  49    IEL   TRG   2 CATWDGFYYKKLF   1 1.298701     1  1       9472  60   F      39.00       DO                   C            D
+
+[[50]]
+            Group ID Tissue Chain TRV            CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+317 Uncategorized 49    PBL   TRG   5 CATWDVYSSDWIKTF   2 1.470588     1  1        622  60   F         39       DO                   A            D
+650 Uncategorized 49    PBL   TRG   2 CATWDVYSSDWIKTF   2 7.352941     5  1        622  60   F         39       DO                   A            D
+
+[[51]]
+     Group  ID Tissue Chain TRV          CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+376 Active  35    PBL   TRG   4 CATWDGPHYKKLF   1 43.902439    36  1       6591  11   M       22.4       DA                   C            A
+656 Active 143    IEL   TRG   2 CATWDGPHYKKLF   1  1.886792     1  1       2843  16   M       24.2       DO                   B            B
+
+[[52]]
+      Group  ID Tissue Chain TRV         CDR3    TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+459  Active 143    IEL   TRG   4 CATWDGYYKKLF      1  3.773585     2  1       2843  16   M       24.2       DO                   B            B
+587 Control  13    PBL   TRG   2 CATWDGYYKKLF 1 or 2  7.936508     5  2       2188  18   F       17.0       DO                   B            B
+620     GFD   3    IEL   TRG   2 CATWDGYYKKLF      1  1.282051     1  1       5000  53   F       37.8       DO                   B            D
+633     GFD  41    IEL   TRG   2 CATWDGYYKKLF 1 or 2  5.172414     3  1       1945  37   F       14.4       DO                   B            C
+658  Active 143    PBL   TRG   2 CATWDGYYKKLF      1 28.260870    13  1        504  16   M       24.2       DO                   A            B
+
+[[53]]
+     Group ID Tissue Chain TRV                     CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+878 Active 35    IEL   TRD   1 CALGDQRVPIPWTGGYRHTDKLIF   1 86.170213    81  2       2238  11   M       22.4       DA                   B            A
+911 Active 46    PBL   TRD   1 CALGDQRVPIPWTGGYRHTDKLIF   1  1.265823     1  1       5000  19   F       21.3       DO                   B            B
+
+[[54]]
+     Group ID Tissue Chain TRV              CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+956 Active 51    IEL   TRD   1 CALGEGFQRLGDCKLIF   1  2.777778     2  1      10000  51   F       68.1       DO                   C            D
+988 Active 51    PBL   TRD   1 CALGEGFQRLGDCKLIF   1 23.076923    18  2       1394  51   F       68.1       DO                   B            D
+
+[[55]]
+                       Group ID Tissue Chain TRV                  CDR3 TRJ     Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+1255 Gluten Challenge Active  1    IEL   TRD   1 CALGEYGRGSWGISHTDKLIF   1 2.247191     2  1       5000  36   F       24.6                            B            C
+1305 Gluten Challenge Active  1    PBL   TRD   1 CALGEYGRGSWGISHTDKLIF   1 1.123596     1  1       5000  36   F       24.6                            B            C
+
+[[56]]
+      Group  ID Tissue Chain TRV               CDR3 TRJ      Freq Count NT Cell_count Age Sex TCRgd_freq Sort_day Cell_count_category Age_category
+1480 Active 143    IEL   TRD   1 CALGGAPLGDTRKDKLIF   1  1.333333     1  1       2843  16   M       24.2       DO                   B            B
+1483 Active 143    PBL   TRD   1 CALGGAPLGDTRKDKLIF   1 53.246753    41  2        504  16   M       24.2       DO                   A            B
