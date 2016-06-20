@@ -25,8 +25,17 @@ setwd('~/Documents/Dinner/gd TCR/')
 paper <- theme(text=element_text(size=20), axis.text=element_text(size = 20), axis.title=element_text(size = 20), plot.title=element_text(size = 20), 
                strip.text=element_text(size=20), legend.key.size=unit(1,"cm"))
 
-ppt <- theme(text=element_text(size=30), axis.text=element_text(size = 30), axis.title=element_text(size = 30), plot.title=element_text(size = 30), 
-             strip.text=element_text(size=30), legend.key.size=unit(1.5,"cm"))
+ppt <- theme(text=element_text(size=35, face="bold"), axis.text=element_text(size = 35), axis.title=element_text(size = 35), plot.title=element_text(size = 35), 
+             strip.text=element_text(size=35), legend.key.size=unit(2,"cm"), strip.background = element_rect(fill="grey90"))
+
+ppt_a <- ppt <- theme(text=element_text(size=35, face="bold"), axis.text=element_text(size = 25), axis.title=element_text(size = 35), plot.title=element_text(size = 35), 
+                      strip.text=element_text(size=35), legend.key.size=unit(2,"cm"), strip.background = element_rect(fill="grey90"))
+
+ppt_2 <- theme(text=element_text(size=50), axis.text=element_text(size = 40), axis.title=element_text(size = 40), plot.title=element_text(size = 40), 
+             strip.text=element_text(size=40), legend.key.size=unit(2,"cm"))
+
+ppt_3 <- theme(text=element_text(size=50), axis.text=element_text(size = 25), axis.title=element_text(size = 40), plot.title=element_text(size = 40), 
+               strip.text=element_text(size=40), legend.key.size=unit(2,"cm"))
 
 ## folder tree organizes patients and corresponding TCR sequence data
 # patient group -> patient -> sequencing tables
@@ -135,6 +144,9 @@ trv_summary_trg_control <- filter(trv_summary_trg, Group == "Control", Tissue ==
 
 write.csv(trv_summary_trg, "trv_summary_trg.csv")
 
+# If you want to look at the J usage
+trv_summary_trg = trv_summary[trv_summary$Chain=='TRG',]
+trv_summary_trg$TRJ = factor(trv_summary_trg$TRJ) 
 
 # looking at top ranked clones in each sample 
 
@@ -300,10 +312,10 @@ Freq_gamma_usage_charge_full_positive$Group <- factor(Freq_gamma_usage_charge_fu
 g = ggplot(Freq_gamma_usage_charge_full_positive, aes(factor(Group), Freq, fill = Group))
 g = g + geom_boxplot(outlier.size=0)
 g = g + geom_point(aes(fill=Group), position = position_jitterdodge(), size = 1.5)
-g = g + theme_classic()
-g = g + labs(title="Sum of gamma chain CDRs", x="", y="Freq with (+) charges")
-g = g + scale_fill_manual(values=c("Control"="grey55", "Active"="grey75", "GFD"="grey95"))
-g = g + ppt
+g = g + theme_bw()
+g = g + labs(title="Sum of gamma chain CDRs\n", x="", y="Freq with (+) charges\n")
+g = g + scale_fill_manual(values=c("Control"="grey55", "Active"="coral1", "GFD"="grey95"))
+g = g + ppt_a
 g = g + ylim(0, 105)
 g = g + theme(legend.title=element_blank())
 g = g + facet_wrap(~Tissue)
@@ -326,11 +338,11 @@ Freq_gamma_usage_charge_full_positive_Control$Tissue <- factor(Freq_gamma_usage_
 g = ggplot(Freq_gamma_usage_charge_full_positive_Control, aes(factor(Tissue), Freq, fill = Tissue))
 g = g + geom_boxplot(outlier.size=0)
 g = g + geom_point(aes(fill=Tissue), position = position_jitterdodge(), size = 2)
-g = g + theme_classic()
-g = g + labs(title="Sum of gamma chain CDRs", x="", y="Freq with (+) charges")
+g = g + theme_bw()
+g = g + labs(title="Sum of gamma chain CDRs\n", x="", y="Freq with (+) charges\n")
 g = g + scale_fill_manual(values=c("PBL"="grey70", "IEL"="grey95"))
 g = g + ppt
-g = g +  theme(legend.title=element_blank())
+g = g + theme(legend.title=element_blank())
 g = g + ylim(0, 105)
 g = g + facet_wrap(~Group)
 g
@@ -365,13 +377,13 @@ trv_summary_trg_IEL_PBL$ID <- factor(trv_summary_trg_IEL_PBL$ID, levels =c("7", 
 
 g = ggplot(trv_summary_trg_IEL_PBL,aes(factor(ID),freq,fill=TRV))
 g = g + geom_bar(stat='identity')
-g = g + scale_fill_manual(values=cbbPalette,limits=levels(trv_summary_trg_IEL_PBL$TRV))
+g = g + scale_fill_manual(name="TRGV",values=cbbPalette,limits=levels(trv_summary_trg_IEL_PBL$TRV))
 g = g + facet_grid(Tissue~Group, scales='free_x',space='free_x')
-g = g + xlab('Patient ID')
+g = g + xlab('Individuals')
 g = g + ylab('Frequency')
 g = g + labs(title="Vgamma Usage")
-g = g + theme_classic()
-g = g + ppt
+g = g + theme_bw()
+g = g + ppt_a
 #g = g + theme(strip.background = element_blank(),strip.text.x = element_blank())
 #g = g + theme(panel.background = element_rect(fill="NA", color ="black"))
 g
@@ -392,17 +404,18 @@ trv_summary_trg_control$TRV <- factor(trv_summary_trg_control$TRV, levels =c("1"
 vcolors_control <-colorRampPalette(brewer.pal(8,'Set3'))(length(levels(trv_summary_trg_control$TRV)))
 
 cbbPalette <- c("#FFFFE0", "#B0E0E6", "#F08080", "#BEBEBE", "#EED2EE", "#FFF68F", "#7F7F7F", "#90EE90")
+cbbPalette <- c("#BDB76B", "#0000FF", "#FF3030", "#242424", "#E066FF", "#FFFF00", "#BEBEBE", "#32CD32")
 
 g = ggplot(trv_summary_trg_control,aes(factor(ID),freq,fill=TRV))
 g = g + geom_bar(stat='identity')
-g = g + scale_fill_manual(values=cbbPalette,limits=levels(trv_summary_trg_control$TRV))
+g = g + scale_fill_manual(name="TRGV",values=cbbPalette,limits=levels(trv_summary_trg_control$TRV))
 g = g + facet_grid(~Tissue, scales='free_x',space='free_x')
-g = g + xlab('Patient ID')
+g = g + xlab('Individuals')
 g = g + ylab('Frequency')
 g = g + labs(title="Vgamma Usage")
-g = g + theme_classic()
+g = g + theme_bw()
 g = g + theme(panel.background = element_rect(fill="NA", color ="black"))
-g = g + ppt
+g = g + ppt_a
 g
 
 ggsave(paste(plot_folder,'Control Vg usage in PBL vs. IEL.pdf'),width=13,height=8.66)
@@ -493,9 +506,13 @@ ggsave(paste(plot_folder,'Control PBL vs. IEL Gamma vs. Delta CDR3 freq bar plot
 
 clone_summary_Active_GFD_IEL <- filter(clone_summary, Tissue == "IEL", Group == "Active" | Group == "GFD" | Group == "Control")
 clone_summary_Active_GFD_IEL$Group <- factor(clone_summary_Active_GFD_IEL$Group, levels =c("Control", "Active", "GFD"))
+clone_summary_Active_GFD_IEL$ID <- factor(clone_summary_Active_GFD_IEL$ID, levels =c("7", "13", "40", "53", "110", "111", "144", "106", "22", "35", "46", "81", "47", "51"
+                                                                                     ,"112", "143", "3", "4", "28", "33", "41", "113", "9", "43"))
 
 clone_summary_Active_GFD_PBL <- filter(clone_summary, Tissue == "PBL", Group == "Active" | Group == "GFD" | Group == "Control")
 clone_summary_Active_GFD_PBL$Group <- factor(clone_summary_Active_GFD_PBL$Group, levels =c("Control", "Active", "GFD"))
+clone_summary_Active_GFD_PBL$ID <- factor(clone_summary_Active_GFD_PBL$ID, levels =c("7", "13", "40", "53", "110", "111", "144", "106", "22", "35", "46", "81", "47", "51"
+                                                                                     ,"112", "143", "3", "4", "28", "33", "41", "113", "9", "43"))
 
 clone_summary_Active_GFD_IEL$Chain <- factor(clone_summary_Active_GFD_IEL$Chain, levels =c("TRG", "TRD"))
 clone_summary_Active_GFD_PBL$Chain <- factor(clone_summary_Active_GFD_PBL$Chain, levels =c("TRG", "TRD"))
@@ -505,17 +522,18 @@ clonecolors_Active_GFD_PBL = sample(colorRampPalette(brewer.pal(8,'Greys'))(dim(
 clonecolors_Active_GFD_IEL = sample(colorRampPalette(brewer.pal(8,'Greys'))(dim(clone_summary_Active_GFD_IEL)[1]))
 
 
-g = ggplot(clonecolors_Active_GFD_IEL,aes(factor(ID),Freq,fill=Clone))
+
+g = ggplot(clone_summary_Active_GFD_IEL,aes(factor(ID),Freq,fill=Clone))
 g = g + geom_bar(stat='identity')
 g = g + scale_fill_manual(values=clonecolors_Active_GFD_IEL)
 g = g + facet_grid(Chain ~ Group,scales='free_x',space='free_x')
-g = g + theme_classic()
+g = g + theme_bw()
 g = g + theme(panel.background = element_rect(fill="NA", color ="black"))
 g = g + theme(legend.position="none")
 g = g + xlab('Patient ID')
 g = g + ylab('Frequency')
 g = g + labs(title="IEL CDR3s")
-g = g + ppt
+g = g + ppt_a
 g
 
 ggsave(paste(plot_folder,'Active vs. GFD IEL Gamma vs. Delta CDR3 freq bar plots.pdf'),width=15,height=10)
@@ -817,22 +835,23 @@ divshannon_summary_A_G$Tissue <- factor(divshannon_summary_A_G$Tissue, levels =c
 divsimpson_summary_A_G <- filter(divsimpson_summary, Group == "Active" | Group == "GFD")
 divsimpson_summary_A_G$Tissue <- factor(divsimpson_summary_A_G$Tissue, levels =c("PBL", "IEL"))
 
-g = ggplot(divshannon_summary_minus_uncat,aes(Tissue,median,fill=Group))
+g = ggplot(divshannon_summary_minus_uncat,aes(Group,median,fill=Group))
 g = g + geom_violin(adjust=.5)
-g = g + geom_point(aes(fill=Group), position = position_jitterdodge(dodge.width = 1), size = 1)
-g = g + theme_classic()
-g = g + scale_fill_manual(values=c('Control'='grey50','Active'='grey70','GFD'='grey95'))
-g = g + labs(y = "Median Shannon Diversity", x="", title="Gamma and Delta CDR3 diversity")
-g = g + ppt
+g = g + geom_point(aes(fill=Group), position = position_jitterdodge(dodge.width = 1), size = 2)
+g = g + theme_bw()
+g = g + theme(legend.title=element_blank())
+g = g + scale_fill_manual(values=c('Control'='grey50','Active'='coral1','GFD'='grey95'))
+g = g + labs(y = "Median Shannon Diversity\n", x="", title="Gamma and Delta CDR3 diversity\n")
+g = g + ppt_a
 g = g + theme(title = element_text(vjust=2))
-#g = g + facet_wrap(~Group)
+g = g + facet_wrap(~Tissue)
 g
 
 #A vs G
 ggsave(paste(plot_folder,'PBL vs. IEL for Active vs. GFD Median Subsampled Shannon.pdf'),width=12,height=8)
 
 #Everyone by disease
-ggsave(paste(plot_folder,'PBL vs. IEL for All Median Subsampled Shannon.png'),width=12,height=8)
+ggsave(paste(plot_folder,'PBL vs. IEL for All Median Subsampled Shannon.pdf'),width=12,height=8)
 
 stats: 
   IEL <- filter(divshannon_summary_A_G, Tissue=="IEL")
@@ -851,10 +870,11 @@ divshannon_summary_A_G$Chain <- factor(divshannon_summary_A_G$Chain, levels =c("
 
 g = ggplot(divshannon_summary_minus_uncat,aes(Tissue,median,fill=Group))
 g = g + geom_violin(adjust=.5)
-g = g + geom_point(aes(fill=Group), position = position_jitterdodge(dodge.width = 1), size = 1)
-g = g + theme_classic()
-g = g + scale_fill_manual(values=c('Control'='grey50','Active'='grey70','GFD'='grey95'))
-g = g + labs(y = "Median Shannon Diversity", x="", title="CDR3 diversity")
+g = g + geom_point(aes(fill=Group), position = position_jitterdodge(dodge.width = 1), size = 2)
+g = g + theme_bw()
+g = g + theme(legend.title=element_blank())
+g = g + scale_fill_manual(values=c('Control'='grey50','Active'='coral1','GFD'='grey95'))
+g = g + labs(y = "Median Shannon Diversity\n", x="", title="CDR3 diversity\n")
 g = g + ppt
 g = g + theme(title = element_text(vjust=2))
 g = g + facet_wrap(~Chain)
@@ -864,7 +884,7 @@ g
 ggsave(paste(plot_folder,'gamma vs delta for Active vs. GFD Median Subsampled Shannon.pdf'),width=12,height=8)
 
 #All
-ggsave(paste(plot_folder,'gamma vs delta for All Median Subsampled Shannon.png'),width=12,height=8)
+ggsave(paste(plot_folder,'gamma vs delta for All Median Subsampled Shannon.pdf'),width=12,height=8)
 
 # Looking at TRV diversity at level of individual delta or gamma chains 
 
